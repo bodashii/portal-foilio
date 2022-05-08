@@ -1,10 +1,19 @@
-import React, { useState } from 'react';
-import './App.css';
+import React from 'react';
+import Nav from './components/Nav';
+import About from './components/About';
+import Contact from './components/Contact';
+import Projec from './components/Projec';
 
 function App() {
   return (
     <div>
-      <h1>Nicolas Young</h1>
+      <div>
+        <Nav />
+      </div>
+      
+      <Projec />
+      <About />
+      <Contact />
     </div>
   );
 }
