@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projec () {
     return (
-        <section>
+        <section className="container">
             <h3>Projects</h3>
             <div>
                 <div>
