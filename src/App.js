@@ -1,14 +1,17 @@
 import React from 'react';
-import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
+import Projec from './components/Projec';
 
 function App() {
   return (
     <div>
-      <h1>Nicolas Young !</h1>
-      <Nav />
+      <div>
+        <Nav />
+      </div>
+      
+      <Projec />
       <About />
       <Contact />
     </div>
