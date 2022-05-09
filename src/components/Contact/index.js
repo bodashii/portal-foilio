@@ -17,28 +17,28 @@ function ContactForm() {
                     
                     <form className="container-fluid">
                         <div className="d-flex flex-column justify-content-center">
-                            <fieldset>
+                            <fieldset className="form-group row">
                                 <legend>Name</legend>
-                                <div className="mb-2">
-                                    <input className=" col form-control text-center" type="text" placeholder="First Name" />
+                                <div className="">
+                                    <input className="col-md-3 mb-2 text-center" type="text" placeholder="First Name" />
                                 </div>
 
-                                <div className="mb-3">
-                                    <input className=" col form-control text-center" type="text" placeholder="Last Name" />
+                                <div className="">
+                                    <input className="col-md-3 mb-2 text-center" type="text" placeholder="Last Name" />
                                 </div>
                             </fieldset>
 
-                            <fieldset>
+                            <fieldset className="form-group row">
                                 <legend>Email</legend>
-                                <div className="mb-3">
-                                    <input className="form-control" type="email" placeholder="email@123.com" />
+                                <div>
+                                    <input className="col-md-3 mb-2" type="email" placeholder="email@123.com" />
                                 </div>
                             </fieldset>
 
-                            <fieldset>
+                            <fieldset className="form-group row">
                                 <legend>Message</legend>
-                                <div className="mb-3">
-                                    <textarea className="form-control" type="textarea" placeholder="You're message here..." />
+                                <div>
+                                    <textarea className="col-md-3 mb-2" type="textarea" placeholder="You're message here..." />
                                 </div>
                         </fieldset>
                         </div>
