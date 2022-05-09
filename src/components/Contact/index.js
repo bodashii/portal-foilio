@@ -3,18 +3,19 @@ import React from 'react';
 function ContactForm() {
     return (
         <section>
-            
-            <h4 className="text-center title">Contact</h4>
+            <div className="row">
+                <h4 className="text-center title">Contact</h4>
+            </div>
             <div className="container">
-                <div className="row">
-                    <div className="col">
+                <div className="col">
+                    <div className="row">
                         <div className="row">
                             <a href="https://github.com/maddnty">GitHub</a>
                             <a href="https://www.linkedin.com/in/nicolas-young-818560227/">Linked In</a>
                         </div>
                     </div>
 
-                    <div className="col">
+                    <div className="row">
                     <form>
                         <div>
                             <fieldset>
