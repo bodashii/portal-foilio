@@ -2,10 +2,10 @@ import React from 'react';
 
 function About() {
     return (
-        <section>
-            <h3>Who's this?</h3>
-            <div>
-                <p>
+        <section className="container-fluid text-center">
+            <h3 className="display-1">Who's this?</h3>
+            <div className="container">
+                <p className="lead">
                 My name is Nicolas Young. I enjoy a lot of hobbies, but find
                 the persistent need to improve my skills to be a bigger joy.
                 Programming, Coding, Puzzles, Games, anything that could 
