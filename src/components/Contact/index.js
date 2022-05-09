@@ -1,23 +1,27 @@
 import React from 'react';
 
+
 function ContactForm() {
     return (
         <section>
-            <div className="row">
-                <h4 className="text-center title">Contact</h4>
+            <div className="row g-1">
+                <h4 className="text-center display-3">Contact</h4>
             </div>
-            <div className="container">
-                <div className="col">
-                    <div className="row">
-                        <div className="row">
-                            <a href="https://github.com/maddnty">GitHub</a>
-                            <a href="https://www.linkedin.com/in/nicolas-young-818560227/">Linked In</a>
+            <div className="container-fluid">
+                <div className="grid text-center container">
+                    
+                        <div className="grid text-center">
+                            <div>
+                                <a className="g-col-6 display-6" href="https://github.com/maddnty">GitHub</a>
+                            </div>
+                            
+                            <a className="g-col-6 display-6" href="https://www.linkedin.com/in/nicolas-young-818560227/">Linked In</a>
                         </div>
-                    </div>
+                    
 
                     <div className="row">
-                    <form>
-                        <div>
+                    <form className="container">
+                        <div className="row">
                             <fieldset>
                                 <legend>Name</legend>
                                 <div className="mb-3">
