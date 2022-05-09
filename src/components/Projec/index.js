@@ -2,10 +2,10 @@ import React from 'react';
 
 function Projec () {
     return (
-        <section className="container">
-            <h3>Projects</h3>
-            <div>
-                <div>
+        <section className="container-fluid text-center">
+            <h3 className="bg-body shadow-sm display-3">Projects</h3>
+            <div className="container-fluid">
+                <div className="justify-content-center">
                     <a href="./project1">Project 1
                         <img alt="project1"/>
                     </a>

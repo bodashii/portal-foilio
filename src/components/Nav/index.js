@@ -1,18 +1,27 @@
 import React from 'react';
+import Logo from '../../assets/images/NY.png';
 
 function Nav () {
 
     return (
         <header className="flex-row px-1">
             <nav className="navbar fixed-bottom navbar-expand-lg navbar-light bg-light">
-                <span className="navbar-brand px-2">
-                    <span className="nav-item" aria-label="web dev" role="img">💻 <span>Nicolas Young</span>
-                        
-                    </span>
-                </span>
+                
 
                 <div className="container-fluid">
-                    <ul className="navbar-nav">
+
+
+                    <ul className="navbar-nav align-items-center">
+                        <li className="nav-item">
+                            <div className="navbar-brand px-2">
+                                <a className="nav-link" href="/">
+                                    <img src={Logo}  height="100" width="100" alt="ny-logo" />
+                                    <span>Nicolas Young</span>
+                                </a>
+                            </div>
+                        </li>
+
+
                         <li className="nav-item">
                             <a className="nav-link" href="#about">About</a>
                         </li>
