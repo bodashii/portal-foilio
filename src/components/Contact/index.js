@@ -1,5 +1,7 @@
 import React from 'react';
-
+import GitLogo from '../../assets/images/github.svg';
+import LILogo from '../../assets/images/linkedin.svg';
+import TwitterLogo from '../../assets/images/twitter.svg';
 
 function ContactForm() {
     return (
@@ -9,13 +11,8 @@ function ContactForm() {
             </div>
             <div className="container-fluid vw-60">
                 <div className="grid text-center container">
-                    <div className="d-flex justify-content-between mx-auto p-2">
-                        <a className="display-6" href="https://github.com/maddnty">Github</a>
-                        <a className="display-6" href="https://www.linkedin.com/in/nicolas-young-818560227/">Linked In</a>
-                        <a className="display-6" href="https://twitter.com/maddnty">Tweet</a>
-                    </div>
                     
-                    <form className="container-fluid">
+                    <form className="container-fluid ">
                         <div className="d-flex flex-column justify-content-center">
                             <fieldset className="form-group row">
                                 <legend>Name</legend>
@@ -31,7 +28,7 @@ function ContactForm() {
                             <fieldset className="form-group row">
                                 <legend>Email</legend>
                                 <div>
-                                    <input className="col-md-3 mb-2" type="email" placeholder="email@123.com" />
+                                    <input className="col-md-3 mb-2 text-center" type="email" placeholder="email@123.com" />
                                 </div>
                             </fieldset>
 
@@ -46,6 +43,21 @@ function ContactForm() {
                         
                         <button className="btn btn-success" type="submit">Send</button>
                     </form>
+
+                    <div className="d-flex justify-content-between mx-auto p-2">
+                    
+                        <a  href="https://github.com/maddnty" alt="github link">
+                            <img width="100px" height="100px" alt="github"src={ GitLogo } />
+                        </a>
+
+                        <a className="display-6" href="https://www.linkedin.com/in/nicolas-young-818560227/">
+                            <img width="100px" height="100px" alt="github"src={ LILogo } />
+                        </a>
+
+                        <a className="display-6" href="https://twitter.com/maddnty">
+                            <img width="100px" height="100px" alt="github"src={ TwitterLogo } />
+                        </a>
+                    </div>
                 </div>
                 </div>   
         </section>

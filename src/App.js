@@ -3,7 +3,6 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projec from './components/Projec';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (

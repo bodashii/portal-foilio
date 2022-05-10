@@ -4,6 +4,7 @@ function About() {
     return (
         <section className="container-fluid text-center">
             <h3 className="display-1 bg-body shadow-sm">Who's this?</h3>
+            <svg className="fa-solid fa-user"></svg>
             <div className="container">
                 <p className="lead">
                 My name is Nicolas Young. I enjoy a lot of hobbies, but find
